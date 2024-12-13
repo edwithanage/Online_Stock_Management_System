@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+/* Style for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #16439b; /* Dark blue text */
+  text-align: center; /* Center align content */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style for table */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border: 2px solid #16439b; /* Dark blue border */
+  margin-bottom: 20px; /* Add some space between the table and buttons */
+}
+
+th, td {
+  border: 1px solid #16439b;
+  padding: 8px;
+}
+
+th {
+  background-color: #16439b; /* Dark blue header background */
+  color: #fff; /* White header text */
+}
+
+/* Style for buttons */
+button {
+  background-color: #16439b; /* Dark blue button background */
+  color: #fff; /* White button text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0f2c66; /* Slightly darker blue on hover */
+}

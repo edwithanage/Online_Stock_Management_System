@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+/* Add your custom CSS in All.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #16439b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #16439b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0f2c66;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #16439b;
+}
+
+th, td {
+    border: 1px solid #16439b;
+    padding: 8px;
+}
+
+th {
+    background-color: #16439b;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}

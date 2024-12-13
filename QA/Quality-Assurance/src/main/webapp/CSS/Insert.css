@@ -1,0 +1,66 @@
+/* Style for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #16439b; /* Dark blue text */
+  text-align: center; /* Center align content */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.h{
+	padding-top: 100px;
+	border: 2px solid #16439b; /* Dark blue border */
+  padding: 20px; /* Add some space inside the border */
+  max-width: 400px; /* Limit the width of the form */
+  width: 100%;
+}
+
+/* Style for headings */
+h1 {
+  color: #16439b; /* Dark blue heading */
+}
+
+/* Style for labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:  #16439b;
+}
+
+/* Style for input fields */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Style for checkboxes */
+.checkbox-agreement {
+  text-align: left;
+}
+
+.chec {
+  margin-right: 5px;
+}
+
+/* Style for buttons */
+button {
+  background-color: #16439b; /* Dark blue button background */
+  color: #fff; /* White button text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px; /* Add some space around the button */
+}
+
+button:hover {
+  background-color: #0f2c66; /* Slightly darker blue on hover */
+}

@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+/* Style for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #16439b; /* Dark blue text */
+  text-align: center; /* Center align content */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.m{
+	 border: 2px solid #16439b; /* Dark blue border */
+  padding: 20px; /* Add some space inside the border */
+  max-width: 400px; /* Limit the width of the form */
+  width: 100%;
+}
+
+/* Style for headings */
+h1 {
+  color: #16439b; /* Dark blue heading */
+}
+
+/* Style for form elements */
+.form-group {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.btnn {
+  background-color: #16439b; /* Dark blue button background */
+  color: #fff; /* White button text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px; /* Add some space around the button */
+}
+
+.btnn:hover {
+  background-color: #0f2c66; /* Slightly darker blue on hover */
+}
